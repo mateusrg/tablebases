@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+body {
+    background-color: #333;
+}
+
+#FEN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#FEN p {
+    font-size: 32px;
+    color: white;
+}
+
+#FEN input {
+    height: 5.75vh;
+    width: 30vw;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 10px;
+}
+
+.geral {
+    display: flex;
+    align-items: center;
+    padding: 0px 32px;
+    width: 35.35vw;
+    justify-content: space-between;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+.geral > p {
+    font-size: 32px;
+}
+
+.geral > div {
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.geral > div > p {
+    font-size: 28px;
+}
+
+.resultado-brancas {
+    background-color: #fff;
+}
+
+.resultado-brancas > div {
+    border: 2px solid black;
+}
+
+.resultado-negras {
+    background-color: #000;
+    color: white;
+}
+
+.resultado-negras > div {
+    border: 2px solid white;
+}
+
+.resultado-empate {
+        background-color: #777;
+        color: #bbb;
+}
+
+#auxiliar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#melhor-lance {
+    margin-top: 16px;
+    margin-left: calc(30vw + 12px);
+    font-size: 28px;
+    color: white;
+}
